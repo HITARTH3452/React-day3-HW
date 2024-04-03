@@ -1,0 +1,39 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .image-container img {
+    width: 700px;
+    height: 300px;
+    max-width: 100%;
+  }
+  
+  .content-container {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .content-container h2,p {
+    margin-top: 0;
+    color:#fff;
+  }
+  
+  button {
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

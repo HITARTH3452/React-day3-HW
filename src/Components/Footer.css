@@ -1,0 +1,42 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  .footer-column h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
